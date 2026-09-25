@@ -9,14 +9,15 @@
     "dependencies": {
         "bootstrap": "^5.3.8",
         "react": "^19.1.1",
-        "react-dom": "^19.1.1"
+        "react-dom": "^19.1.1",
+        "react-router-dom": "^7.18.4"
     },
     "devDependencies": {
         "@types/react": "^19.1.12",
         "@types/react-dom": "^19.1.9",
         "@vitejs/plugin-react": "^5.0.2",
-        "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^2.0.0",
+        "sass": "^1.105.0",
         "typescript": "^5.9.2",
         "vite": "^7.0.7"
     }

@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'root');
+Route::view('/{any?}', 'root')->where('any', '^(?!api/).*');

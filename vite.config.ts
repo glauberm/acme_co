@@ -10,8 +10,15 @@ export default defineConfig({
         }),
         react(),
     ],
+    css: {
+        preprocessorOptions: {
+            scss: {
+                quietDeps: true,
+                silenceDeprecations: ['import', 'global-builtin', 'color-functions', 'if-function'],
+            },
+        },
+    },
     server: {
-        // Listen inside the container, but hand the browser a localhost URL.
         host: '0.0.0.0',
         port: 5173,
         strictPort: true,

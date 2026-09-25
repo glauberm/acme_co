@@ -111,6 +111,7 @@ class BasketCalculatorServiceTest extends TestCase
         $basket = $this->makeBasket();
 
         $this->assertSame([], $basket->items());
+        $this->assertSame(0, $basket->delivery());
         $this->assertSame(0, $basket->total());
     }
 
