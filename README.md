@@ -32,8 +32,6 @@ Seed the product catalogue:
 docker exec -it acme_app php artisan db:seed
 ```
 
-> The seeder is safe to run more than once. To start from scratch, use `php artisan migrate:fresh --seed`.
-
 Install the frontend dependencies:
 
 ```
